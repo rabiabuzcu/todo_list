@@ -11,8 +11,16 @@
         <div class="todo-app">
             <h2>To-Do List <img src="check.png"></h2>   
             <div class="row">
+               
                 <input type="text" id="input-box" placeholder="Add your text">
+                <select id="priority">
+                    <option value="dusuk">Düşük</option>
+                    <option value="orta">Orta</option>
+                    <option value="yüksek">Yüksek</option>
+                </select>
                 <button onclick="addTask()">Add</button>
+                <ul id="todoList"></ul>
+                
             </div>
             <ul id="list-container">
                 <!-- <li class="checked">Task 1</li>
@@ -20,8 +28,12 @@
                 <li>Task 3</li> -->
             </ul>
              </div>
-             <script src="script.js"></script>
+             <script src="script.js">
+   
+             </script>
     </div>
+
+    
     
 </body>
 </html>
